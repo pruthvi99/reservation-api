@@ -1,0 +1,674 @@
+[{
+  "_id": {
+    "$oid": "65b07be0e47e8d2d06d6d26e"
+  },
+  "reservationId": "123456",
+  "guestMemberId": "789",
+  "guestName": "John Doe",
+  "hotelName": "Example Hotel",
+  "arrivalDate": "Tue, 23 Jan 2024 00:00:00 GMT",
+  "departureDate": "Sat, 27 Jan 2024 00:00:00 GMT",
+  "status": "active",
+  "baseStayAmount": 500,
+  "taxAmount": 50
+},
+{
+  "_id": {
+    "$oid": "65b09602c100efb5a1444459"
+  },
+  "reservationId": "77ff7f40-db3b-45af-8563-0acf5e419b3c",
+  "guestMemberId": "879403c0-5104-4eb4-a069-6bdf6577108a",
+  "guestName": "Pamela Hettinger",
+  "hotelName": "Leuschke Group",
+  "arrivalDate": "2024-08-01T12:53:43.807Z",
+  "departureDate": "2024-06-30T15:47:38.359Z",
+  "status": "active",
+  "baseStayAmount": 654,
+  "taxAmount": 25
+},
+{
+  "_id": {
+    "$oid": "65b09602c100efb5a144445a"
+  },
+  "reservationId": "66c0420f-6a36-4bbf-b0fb-372a65ded9a7",
+  "guestMemberId": "35f9ec86-0dbd-4e27-9623-b02408904072",
+  "guestName": "Bill Breitenberg Jr.",
+  "hotelName": "Denesik Inc",
+  "arrivalDate": "2024-06-17T00:26:14.068Z",
+  "departureDate": "2024-02-10T07:35:20.200Z",
+  "status": "active",
+  "baseStayAmount": 158,
+  "taxAmount": 93
+},
+{
+  "_id": {
+    "$oid": "65b09602c100efb5a144445c"
+  },
+  "reservationId": "f4708a0d-471d-442b-b1e1-0d343e047d77",
+  "guestMemberId": "82e7ab41-7944-4b56-bb71-b2e43477ce9d",
+  "guestName": "Alvin O'Reilly",
+  "hotelName": "Buckridge, Ratke and Mraz",
+  "arrivalDate": "2024-06-05T04:58:21.924Z",
+  "departureDate": "2024-10-13T10:46:20.369Z",
+  "status": "cancelled",
+  "baseStayAmount": 879,
+  "taxAmount": 73
+},
+{
+  "_id": {
+    "$oid": "65b09602c100efb5a144445d"
+  },
+  "reservationId": "7f96c212-5407-4b7d-a39b-25121fe3ab82",
+  "guestMemberId": "ce6032fe-f077-4a14-925a-f35ed1b43aa9",
+  "guestName": "Emily Fay Sr.",
+  "hotelName": "Pagac - Graham",
+  "arrivalDate": "2024-03-11T13:10:44.458Z",
+  "departureDate": "2024-05-03T10:21:42.064Z",
+  "status": "active",
+  "baseStayAmount": 892,
+  "taxAmount": 15
+},
+{
+  "_id": {
+    "$oid": "65b09602c100efb5a144445e"
+  },
+  "reservationId": "efe32a37-fba1-4b31-b4be-01e7a8c89946",
+  "guestMemberId": "94a03512-2d2e-4b2a-9026-d76ab6c8ac50",
+  "guestName": "Pat O'Kon",
+  "hotelName": "Torp, Boyer and Hammes",
+  "arrivalDate": "2024-06-07T20:36:37.818Z",
+  "departureDate": "2024-01-25T23:01:02.135Z",
+  "status": "cancelled",
+  "baseStayAmount": 889,
+  "taxAmount": 83
+},
+{
+  "_id": {
+    "$oid": "65b09602c100efb5a144445f"
+  },
+  "reservationId": "5260d138-3329-4f2e-8027-7f9cc6ee684d",
+  "guestMemberId": "fd5f0e42-39d3-4982-b66c-c9e9ee60e02c",
+  "guestName": "Leroy Wehner",
+  "hotelName": "Johnson, Ankunding and Wuckert",
+  "arrivalDate": "2024-07-11T13:49:00.236Z",
+  "departureDate": "2024-10-26T13:47:02.730Z",
+  "status": "active",
+  "baseStayAmount": 538,
+  "taxAmount": 18
+},
+{
+  "_id": {
+    "$oid": "65b09602c100efb5a1444460"
+  },
+  "reservationId": "9afdc50f-6f24-4d3b-860e-def7de8abcd6",
+  "guestMemberId": "0aa67a8d-8004-44d3-a4a0-fbd5cfe5b00a",
+  "guestName": "Angie Boyer",
+  "hotelName": "Lowe Group",
+  "arrivalDate": "2024-05-13T04:55:40.025Z",
+  "departureDate": "2024-04-07T16:17:12.007Z",
+  "status": "cancelled",
+  "baseStayAmount": 774,
+  "taxAmount": 46
+},
+{
+  "_id": {
+    "$oid": "65b09602c100efb5a1444461"
+  },
+  "reservationId": "e488c9ea-71bc-481e-a8d7-a9ef66cb09d4",
+  "guestMemberId": "a11052c8-d9b8-46c2-bdf9-78f40fa45b07",
+  "guestName": "Everett Considine",
+  "hotelName": "Brekke - Greenholt",
+  "arrivalDate": "2024-08-13T10:37:26.889Z",
+  "departureDate": "2024-07-26T10:37:20.047Z",
+  "status": "active",
+  "baseStayAmount": 113,
+  "taxAmount": 86
+},
+{
+  "_id": {
+    "$oid": "65b09602c100efb5a1444462"
+  },
+  "reservationId": "ed261554-b72e-4987-8769-bb8898bce540",
+  "guestMemberId": "b45d80e6-39b7-48e1-be61-40959e2acbe1",
+  "guestName": "Sylvia Green",
+  "hotelName": "Lueilwitz, Lakin and Feeney",
+  "arrivalDate": "2024-07-17T02:38:50.818Z",
+  "departureDate": "2024-09-09T16:29:21.686Z",
+  "status": "active",
+  "baseStayAmount": 492,
+  "taxAmount": 77
+},
+{
+  "_id": {
+    "$oid": "65b09602c100efb5a1444463"
+  },
+  "reservationId": "5ae6ce59-9a72-461b-abe4-c13c05ef8b5d",
+  "guestMemberId": "5789e176-0672-49f8-afc5-78086b3241fb",
+  "guestName": "Evan Price",
+  "hotelName": "Turcotte Group",
+  "arrivalDate": "2024-09-13T15:08:28.063Z",
+  "departureDate": "2024-10-16T01:46:35.040Z",
+  "status": "cancelled",
+  "baseStayAmount": 426,
+  "taxAmount": 88
+},
+{
+  "_id": {
+    "$oid": "65b09602c100efb5a1444464"
+  },
+  "reservationId": "b4a191ea-1875-4bfe-8004-1e3eee00b28b",
+  "guestMemberId": "5308f1fc-858d-4d71-b60a-efe5b4790e0b",
+  "guestName": "Denise Maggio",
+  "hotelName": "Willms - Harber",
+  "arrivalDate": "2024-05-20T06:08:29.355Z",
+  "departureDate": "2024-12-21T07:14:11.531Z",
+  "status": "active",
+  "baseStayAmount": 540,
+  "taxAmount": 91
+},
+{
+  "_id": {
+    "$oid": "65b09602c100efb5a1444465"
+  },
+  "reservationId": "bfee1b28-5830-479a-bbf6-583e4afc01b7",
+  "guestMemberId": "0614a81b-5d0c-424e-8dad-9f6dfc6ded2e",
+  "guestName": "Jeffrey Pouros I",
+  "hotelName": "White - Cummings",
+  "arrivalDate": "2024-11-06T00:56:53.745Z",
+  "departureDate": "2024-05-18T17:19:02.937Z",
+  "status": "active",
+  "baseStayAmount": 193,
+  "taxAmount": 10
+},
+{
+  "_id": {
+    "$oid": "65b09602c100efb5a1444466"
+  },
+  "reservationId": "9b6870cf-64cd-4a0b-8838-bfee27bfae4b",
+  "guestMemberId": "ff7693a0-2765-48d0-971e-97759e08cbc5",
+  "guestName": "Hilda Bahringer",
+  "hotelName": "Schmeler, Purdy and Anderson",
+  "arrivalDate": "2024-04-30T20:23:22.268Z",
+  "departureDate": "2024-07-03T10:14:02.509Z",
+  "status": "cancelled",
+  "baseStayAmount": 971,
+  "taxAmount": 94
+},
+{
+  "_id": {
+    "$oid": "65b09602c100efb5a1444467"
+  },
+  "reservationId": "c8d31f6c-4d27-4550-95dc-d1eca37e8a56",
+  "guestMemberId": "fe469baf-4330-46da-93e4-e3e18714fee8",
+  "guestName": "Winifred Donnelly",
+  "hotelName": "Abernathy, Schuppe and Osinski",
+  "arrivalDate": "2024-08-27T15:01:03.438Z",
+  "departureDate": "2024-11-05T13:14:40.928Z",
+  "status": "active",
+  "baseStayAmount": 245,
+  "taxAmount": 69
+},
+{
+  "_id": {
+    "$oid": "65b09602c100efb5a1444468"
+  },
+  "reservationId": "f0d6b19a-adaa-4547-8514-445e60d73f12",
+  "guestMemberId": "62c8b36c-dd02-44c0-af74-783b11c72eae",
+  "guestName": "Miss Andres Dach",
+  "hotelName": "Hermiston, Sporer and Williamson",
+  "arrivalDate": "2024-10-08T08:36:59.453Z",
+  "departureDate": "2025-01-02T09:45:09.676Z",
+  "status": "cancelled",
+  "baseStayAmount": 258,
+  "taxAmount": 53
+},
+{
+  "_id": {
+    "$oid": "65b09602c100efb5a1444469"
+  },
+  "reservationId": "55e5b74c-dbe6-407e-97c9-73e9a216de1f",
+  "guestMemberId": "ddfb7170-43a0-4ea6-b83a-ba462a8b3c48",
+  "guestName": "Bernadette Grant",
+  "hotelName": "Huel, Shields and O'Keefe",
+  "arrivalDate": "2024-10-29T11:46:28.600Z",
+  "departureDate": "2024-08-08T16:08:26.460Z",
+  "status": "active",
+  "baseStayAmount": 773,
+  "taxAmount": 87
+},
+{
+  "_id": {
+    "$oid": "65b09602c100efb5a144446a"
+  },
+  "reservationId": "ba0e2c07-1476-4f27-8b47-97589fec64ab",
+  "guestMemberId": "e01d3112-a86a-497d-b1bc-e54011f480dc",
+  "guestName": "Nellie Streich",
+  "hotelName": "Hickle LLC",
+  "arrivalDate": "2024-12-09T22:39:34.206Z",
+  "departureDate": "2024-11-30T10:41:53.424Z",
+  "status": "active",
+  "baseStayAmount": 844,
+  "taxAmount": 60
+},
+{
+  "_id": {
+    "$oid": "65b09602c100efb5a144446b"
+  },
+  "reservationId": "356013a2-6ec2-473b-bab4-13a6500e49bb",
+  "guestMemberId": "2fdc1c36-3c05-470c-9de9-45f06cdec2fb",
+  "guestName": "Kent Adams",
+  "hotelName": "Reichel, Rolfson and Rice",
+  "arrivalDate": "2024-11-30T09:45:21.242Z",
+  "departureDate": "2024-09-16T22:43:00.364Z",
+  "status": "active",
+  "baseStayAmount": 685,
+  "taxAmount": 100
+},
+{
+  "_id": {
+    "$oid": "65b09602c100efb5a144446c"
+  },
+  "reservationId": "0e8796cb-5eca-4113-b4d9-4dd4edd8b2e7",
+  "guestMemberId": "20565d72-4eca-42dd-bfa2-89519d78fc09",
+  "guestName": "April Bogisich",
+  "hotelName": "Farrell - Schinner",
+  "arrivalDate": "2024-04-10T10:57:00.202Z",
+  "departureDate": "2024-02-01T08:40:51.480Z",
+  "status": "cancelled",
+  "baseStayAmount": 369,
+  "taxAmount": 89
+},
+{
+  "_id": {
+    "$oid": "65b0965ac100efb5a144446e"
+  },
+  "reservationId": "18914a2c-c701-46b6-97de-3239fad5d1e3",
+  "guestMemberId": "0c4af1da-83a9-40dc-bb21-b9a0dc708d5c",
+  "guestName": "Mr. Marilyn Heaney",
+  "hotelName": "Powlowski - Gibson",
+  "arrivalDate": "Wed Mar 27 2024 17:48:29 GMT-0500 (Central Daylight Time)",
+  "departureDate": "Tue Mar 26 2024 15:56:59 GMT-0500 (Central Daylight Time)",
+  "status": "active",
+  "baseStayAmount": 103,
+  "taxAmount": 64
+},
+{
+  "_id": {
+    "$oid": "65b0965ac100efb5a144446f"
+  },
+  "reservationId": "11717710-3874-4274-a31d-0c138b99aa4a",
+  "guestMemberId": "4d662739-ad14-47d4-9d17-b30a19ad35ab",
+  "guestName": "Emmett Haag IV",
+  "hotelName": "Pfeffer Group",
+  "arrivalDate": "Fri Jan 03 2025 02:29:23 GMT-0600 (Central Standard Time)",
+  "departureDate": "Fri Dec 20 2024 17:13:01 GMT-0600 (Central Standard Time)",
+  "status": "active",
+  "baseStayAmount": 821,
+  "taxAmount": 71
+},
+{
+  "_id": {
+    "$oid": "65b0965ac100efb5a1444470"
+  },
+  "reservationId": "4b4e421a-ee69-4a9e-abed-bd8014cef9c9",
+  "guestMemberId": "4b103a8e-019d-4009-aa10-a4de3ab54695",
+  "guestName": "Ruth O'Connell",
+  "hotelName": "Ryan - Klein",
+  "arrivalDate": "Sat Dec 28 2024 10:45:20 GMT-0600 (Central Standard Time)",
+  "departureDate": "Wed May 08 2024 17:25:43 GMT-0500 (Central Daylight Time)",
+  "status": "cancelled",
+  "baseStayAmount": 254,
+  "taxAmount": 100
+},
+{
+  "_id": {
+    "$oid": "65b0965ac100efb5a1444471"
+  },
+  "reservationId": "68160aa5-8d8a-4b38-b45f-428fc214cbaa",
+  "guestMemberId": "12c30d12-46ba-4164-aa03-5efe9468261a",
+  "guestName": "Bob Witting",
+  "hotelName": "Sawayn - Mayert",
+  "arrivalDate": "Fri Mar 08 2024 23:58:07 GMT-0600 (Central Standard Time)",
+  "departureDate": "Wed Dec 04 2024 16:13:37 GMT-0600 (Central Standard Time)",
+  "status": "cancelled",
+  "baseStayAmount": 701,
+  "taxAmount": 27
+},
+{
+  "_id": {
+    "$oid": "65b0965ac100efb5a1444472"
+  },
+  "reservationId": "337220ec-b52a-4108-8b56-a4d15a5bff84",
+  "guestMemberId": "210278b3-3025-46ff-84e1-d48c6bfe8cdc",
+  "guestName": "Mrs. Brett Kshlerin",
+  "hotelName": "Bernhard and Sons",
+  "arrivalDate": "Thu Feb 01 2024 20:49:47 GMT-0600 (Central Standard Time)",
+  "departureDate": "Mon Nov 25 2024 17:38:15 GMT-0600 (Central Standard Time)",
+  "status": "cancelled",
+  "baseStayAmount": 150,
+  "taxAmount": 43
+},
+{
+  "_id": {
+    "$oid": "65b0965ac100efb5a1444473"
+  },
+  "reservationId": "92dcba6f-b658-4b48-915e-ed9b294bd681",
+  "guestMemberId": "c03fcba0-e19d-48e9-8758-91c4cbedfe0c",
+  "guestName": "Danny Smitham",
+  "hotelName": "Mayer - O'Reilly",
+  "arrivalDate": "Fri Sep 13 2024 21:41:10 GMT-0500 (Central Daylight Time)",
+  "departureDate": "Thu Jul 11 2024 11:19:25 GMT-0500 (Central Daylight Time)",
+  "status": "active",
+  "baseStayAmount": 438,
+  "taxAmount": 69
+},
+{
+  "_id": {
+    "$oid": "65b0965ac100efb5a1444474"
+  },
+  "reservationId": "f12847de-ae86-4a5e-b667-8658e8783b0c",
+  "guestMemberId": "ab4f5d5c-9d34-445e-ab76-d571380615e2",
+  "guestName": "Morris Kertzmann",
+  "hotelName": "Gerhold, Witting and Volkman",
+  "arrivalDate": "Mon Nov 18 2024 08:25:57 GMT-0600 (Central Standard Time)",
+  "departureDate": "Tue Oct 08 2024 20:38:10 GMT-0500 (Central Daylight Time)",
+  "status": "active",
+  "baseStayAmount": 186,
+  "taxAmount": 25
+},
+{
+  "_id": {
+    "$oid": "65b0965ac100efb5a1444475"
+  },
+  "reservationId": "92caf7ec-1df9-4000-899c-067ec4af3700",
+  "guestMemberId": "53c7d100-12b1-443e-a68f-2b1ef8f87d9d",
+  "guestName": "Brent Bruen Sr.",
+  "hotelName": "Green, Borer and Hickle",
+  "arrivalDate": "Sat Mar 23 2024 03:32:40 GMT-0500 (Central Daylight Time)",
+  "departureDate": "Sat Aug 31 2024 12:14:37 GMT-0500 (Central Daylight Time)",
+  "status": "active",
+  "baseStayAmount": 869,
+  "taxAmount": 32
+},
+{
+  "_id": {
+    "$oid": "65b0965ac100efb5a1444476"
+  },
+  "reservationId": "c066dc74-9883-486e-80c9-66d0d39f8845",
+  "guestMemberId": "ed34c401-4638-4e56-95da-d2727c8f66e8",
+  "guestName": "Sidney Jones",
+  "hotelName": "White, Bartell and Nienow",
+  "arrivalDate": "Mon Jul 22 2024 17:43:25 GMT-0500 (Central Daylight Time)",
+  "departureDate": "Mon Jun 17 2024 13:21:31 GMT-0500 (Central Daylight Time)",
+  "status": "active",
+  "baseStayAmount": 357,
+  "taxAmount": 60
+},
+{
+  "_id": {
+    "$oid": "65b0965ac100efb5a1444477"
+  },
+  "reservationId": "9d590bef-9f18-4d9c-b24d-68701242528a",
+  "guestMemberId": "40c8bb1f-7fd1-4f31-9789-86a205ccd209",
+  "guestName": "Miss Nellie West",
+  "hotelName": "Koepp, Turcotte and Schneider",
+  "arrivalDate": "Sat Nov 02 2024 19:16:42 GMT-0500 (Central Daylight Time)",
+  "departureDate": "Thu Mar 14 2024 03:15:58 GMT-0500 (Central Daylight Time)",
+  "status": "cancelled",
+  "baseStayAmount": 975,
+  "taxAmount": 51
+},
+{
+  "_id": {
+    "$oid": "65b0965ac100efb5a1444478"
+  },
+  "reservationId": "66bedad4-d3c4-46d3-8b8f-2c9629811d82",
+  "guestMemberId": "d8f91502-e8a8-45a1-bd1e-40e6a2c71bee",
+  "guestName": "Chad Daugherty",
+  "hotelName": "Tillman - Wolf",
+  "arrivalDate": "Thu Oct 17 2024 01:40:50 GMT-0500 (Central Daylight Time)",
+  "departureDate": "Mon Jan 13 2025 23:00:13 GMT-0600 (Central Standard Time)",
+  "status": "cancelled",
+  "baseStayAmount": 196,
+  "taxAmount": 21
+},
+{
+  "_id": {
+    "$oid": "65b0965ac100efb5a1444479"
+  },
+  "reservationId": "423fa0a1-177f-45b6-8880-69a7f5558574",
+  "guestMemberId": "37845d02-94be-4a02-a9e1-88ce56e625d7",
+  "guestName": "Enrique Stiedemann",
+  "hotelName": "Kihn, Hilpert and Kiehn",
+  "arrivalDate": "Wed Feb 07 2024 04:09:09 GMT-0600 (Central Standard Time)",
+  "departureDate": "Wed Oct 02 2024 17:08:01 GMT-0500 (Central Daylight Time)",
+  "status": "active",
+  "baseStayAmount": 644,
+  "taxAmount": 74
+},
+{
+  "_id": {
+    "$oid": "65b0965ac100efb5a144447a"
+  },
+  "reservationId": "185c0eea-a916-4ea1-9a1a-60ab30884cbe",
+  "guestMemberId": "fb23cd98-6f45-4ff2-a19c-3cf54c56baf3",
+  "guestName": "Ms. Randy Walker",
+  "hotelName": "Brown, Metz and Wunsch",
+  "arrivalDate": "Wed May 08 2024 22:18:05 GMT-0500 (Central Daylight Time)",
+  "departureDate": "Fri Nov 08 2024 00:54:04 GMT-0600 (Central Standard Time)",
+  "status": "active",
+  "baseStayAmount": 349,
+  "taxAmount": 95
+},
+{
+  "_id": {
+    "$oid": "65b0965ac100efb5a144447b"
+  },
+  "reservationId": "1768637a-72b2-488f-8a95-04cf560e3ead",
+  "guestMemberId": "d773c8f3-5e9f-4f6c-830d-4f127d0b8836",
+  "guestName": "Margie Ward",
+  "hotelName": "Roob, Rippin and Gleichner",
+  "arrivalDate": "Sun Nov 03 2024 06:30:50 GMT-0600 (Central Standard Time)",
+  "departureDate": "Mon Apr 08 2024 17:17:54 GMT-0500 (Central Daylight Time)",
+  "status": "active",
+  "baseStayAmount": 726,
+  "taxAmount": 68
+},
+{
+  "_id": {
+    "$oid": "65b0965ac100efb5a144447c"
+  },
+  "reservationId": "654d07ce-8554-4442-a4a3-0fd4a97c1029",
+  "guestMemberId": "298c81ce-dd0c-4de3-a399-ab4897a91829",
+  "guestName": "Bennie Hamill",
+  "hotelName": "Spencer, Schuppe and Lind",
+  "arrivalDate": "Sat Aug 24 2024 21:57:48 GMT-0500 (Central Daylight Time)",
+  "departureDate": "Mon May 06 2024 20:38:29 GMT-0500 (Central Daylight Time)",
+  "status": "active",
+  "baseStayAmount": 301,
+  "taxAmount": 87
+},
+{
+  "_id": {
+    "$oid": "65b0965ac100efb5a144447d"
+  },
+  "reservationId": "cec78a6d-46cb-4e9e-90f1-8c43cff3a9e2",
+  "guestMemberId": "31fb3178-41a4-41fa-8ade-92744a17ad14",
+  "guestName": "Mr. Zachary Roberts",
+  "hotelName": "Turcotte - Waelchi",
+  "arrivalDate": "Sat Mar 30 2024 08:10:32 GMT-0500 (Central Daylight Time)",
+  "departureDate": "Fri Sep 20 2024 15:50:22 GMT-0500 (Central Daylight Time)",
+  "status": "active",
+  "baseStayAmount": 856,
+  "taxAmount": 17
+},
+{
+  "_id": {
+    "$oid": "65b0965ac100efb5a144447e"
+  },
+  "reservationId": "5818a626-8d2e-4eba-985b-b73ce83ba1ba",
+  "guestMemberId": "48c36b70-9df0-4ce7-a361-561e903edae3",
+  "guestName": "Chris Purdy",
+  "hotelName": "Walker - Skiles",
+  "arrivalDate": "Fri Aug 02 2024 10:27:12 GMT-0500 (Central Daylight Time)",
+  "departureDate": "Sun Aug 04 2024 00:08:31 GMT-0500 (Central Daylight Time)",
+  "status": "active",
+  "baseStayAmount": 725,
+  "taxAmount": 16
+},
+{
+  "_id": {
+    "$oid": "65b0965ac100efb5a144447f"
+  },
+  "reservationId": "5b9d62a5-5099-4ea7-9343-361539345b93",
+  "guestMemberId": "efcf22cb-a7c9-4521-bfbb-c6ac6248f704",
+  "guestName": "Cornelius Deckow MD",
+  "hotelName": "Renner LLC",
+  "arrivalDate": "Mon Aug 26 2024 02:18:08 GMT-0500 (Central Daylight Time)",
+  "departureDate": "Wed Feb 28 2024 14:15:33 GMT-0600 (Central Standard Time)",
+  "status": "active",
+  "baseStayAmount": 465,
+  "taxAmount": 35
+},
+{
+  "_id": {
+    "$oid": "65b0965ac100efb5a1444480"
+  },
+  "reservationId": "733931ee-14df-49a4-b207-f61e93c0e6b0",
+  "guestMemberId": "ad649bff-997a-4895-a404-210596601414",
+  "guestName": "Kimberly Streich PhD",
+  "hotelName": "Block Group",
+  "arrivalDate": "Sun Dec 29 2024 11:15:32 GMT-0600 (Central Standard Time)",
+  "departureDate": "Sat Aug 24 2024 21:21:02 GMT-0500 (Central Daylight Time)",
+  "status": "active",
+  "baseStayAmount": 753,
+  "taxAmount": 40
+},
+{
+  "_id": {
+    "$oid": "65b0965ac100efb5a1444481"
+  },
+  "reservationId": "a3bff1c4-1b21-45d7-8a1a-9a8bc3c645c8",
+  "guestMemberId": "6fd174ca-52d0-48dc-a8df-26fec60218b3",
+  "guestName": "Pedro Hoeger",
+  "hotelName": "Dickens, Ullrich and Howell",
+  "arrivalDate": "Wed Jan 01 2025 20:01:19 GMT-0600 (Central Standard Time)",
+  "departureDate": "Wed Nov 20 2024 16:05:04 GMT-0600 (Central Standard Time)",
+  "status": "cancelled",
+  "baseStayAmount": 799,
+  "taxAmount": 11
+},
+{
+  "_id": {
+    "$oid": "65b0a6036388ac730588ac1f"
+  },
+  "reservationId": "5818a626-8d2e-4eba-985b-b73ce83baxyz",
+  "guestMemberId": "48c36b70-9df0-4ce7-a361-561e903ed768",
+  "guestName": "pruthvi karri",
+  "hotelName": "Walker - Skiles",
+  "arrivalDate": {
+    "$date": "2024-08-02T11:27:12.000Z"
+  },
+  "departureDate": {
+    "$date": "2024-08-04T05:08:31.000Z"
+  },
+  "status": "active",
+  "baseStayAmount": 1725,
+  "taxAmount": 36,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65b0aec8107409d49fc6565d"
+  },
+  "reservationId": "5818a626-8d2e-4eba-985b-b73ce83baxyz",
+  "guestMemberId": "48c36b70-9df0-4ce7-a361-561e903ed768",
+  "guestName": "pruthvi karri",
+  "hotelName": "Walker - Skiles",
+  "arrivalDate": {
+    "$date": "2024-08-02T11:27:12.000Z"
+  },
+  "departureDate": {
+    "$date": "2024-08-04T05:08:31.000Z"
+  },
+  "status": "active",
+  "baseStayAmount": 1725,
+  "taxAmount": 36,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65b0af741056cb2062157af0"
+  },
+  "reservationId": "5818a626-8d2e-4eba-985b-b73ce83bax00",
+  "guestMemberId": "48c36b70-9df0-4ce7-a361-561e903ed711",
+  "guestName": "pruthvi karri",
+  "hotelName": "Walker - Skiles",
+  "arrivalDate": {
+    "$date": "2024-08-02T11:27:12.000Z"
+  },
+  "departureDate": {
+    "$date": "2024-08-09T05:08:31.000Z"
+  },
+  "status": "active",
+  "baseStayAmount": 1725,
+  "taxAmount": 36,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65b175ccc72877c9d96c22c2"
+  },
+  "reservationId": "5818a626-8d2e-4eba-985b-b73ce83bax01",
+  "guestMemberId": "48c36b70-9df0-4ce7-a361-561e903ed711",
+  "guestName": "pruthvi karri",
+  "hotelName": "Walker - Skiles",
+  "arrivalDate": {
+    "$date": "2023-12-02T11:27:12.000Z"
+  },
+  "departureDate": {
+    "$date": "2023-12-04T05:08:31.000Z"
+  },
+  "status": "active",
+  "baseStayAmount": 1725,
+  "taxAmount": 36,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65b17615c72877c9d96c22c4"
+  },
+  "reservationId": "5818a626-8d2e-4eba-985b-b73ce83bax02",
+  "guestMemberId": "48c36b70-9df0-4ce7-a361-561e903ed711",
+  "guestName": "pruthvi karri",
+  "hotelName": "Walker - Skiles",
+  "arrivalDate": {
+    "$date": "2024-02-09T11:27:12.000Z"
+  },
+  "departureDate": {
+    "$date": "2024-02-12T05:08:31.000Z"
+  },
+  "status": "cancelled",
+  "baseStayAmount": 625,
+  "taxAmount": 36,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65b17632c72877c9d96c22c6"
+  },
+  "reservationId": "5818a626-8d2e-4eba-985b-b73ce83bax03",
+  "guestMemberId": "48c36b70-9df0-4ce7-a361-561e903ed711",
+  "guestName": "pruthvi karri",
+  "hotelName": "Walker - Skiles",
+  "arrivalDate": {
+    "$date": "2024-03-09T11:27:12.000Z"
+  },
+  "departureDate": {
+    "$date": "2024-03-15T05:08:31.000Z"
+  },
+  "status": "active",
+  "baseStayAmount": 1225,
+  "taxAmount": 36,
+  "__v": 0
+}]
