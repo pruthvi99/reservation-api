@@ -1,33 +1,34 @@
-
 import express, { Request, Response } from 'express';
 import ReservationService from '../services/reservationService';
-import {authMiddleware, generateToken } from '../middlewares/authMiddleware';
+import { authMiddleware, generateToken } from '../middlewares/authMiddleware';
 
 const router = express.Router();
 
-
+// Route to generate JWT token for authentication
 router.post('/login', (req: Request, res: Response) => {
   const { username, password } = req.body;
-  if (username === '123' && password === 'abc') { // I would add a DB operation to check if the user is registered will wrap it around in a controller.
-    let user = {username};
+  // validate credentials from a database.
+  if (username === '123' && password === 'abc') {
+    let user = { username };
     const token = generateToken(user);
-    res.json({ token });
+    res.status(200).json({ token });
   } else {
     res.status(401).json({ error: 'Invalid credentials' });
   }
 });
 
-
+// Route to get all reservations
 router.get('/', authMiddleware, async (req: Request, res: Response) => {
   try {
     const reservations = await ReservationService.getAllReservations();
-    res.json(reservations);
+    res.status(200).json(reservations);
   } catch (error) {
     console.error(error);
     res.status(500).json({ error: 'Internal Server Error' });
   }
 });
 
+// Route to get a specific reservation by ID
 router.get('/:id', authMiddleware, async (req: Request, res: Response) => {
   const reservationId = req.params.id;
 
@@ -44,6 +45,7 @@ router.get('/:id', authMiddleware, async (req: Request, res: Response) => {
   }
 });
 
+// Route to create a new reservation
 router.post('/', authMiddleware, async (req: Request, res: Response) => {
   const reservationData = req.body;
 
@@ -56,15 +58,17 @@ router.post('/', authMiddleware, async (req: Request, res: Response) => {
   }
 });
 
-router.delete('/:id', authMiddleware, async (req: Request, res: Response) => {
+// Route to cancel a reservation by ID
+router.patch('/:id', authMiddleware, async (req: Request, res: Response) => {
   const reservationId = req.params.id;
 
   try {
-    const deletedReservation = await ReservationService.cancelReservation(reservationId);
-    if (!deletedReservation) {
+    const updatedReservation = await ReservationService.updateReservation(reservationId);
+
+    if (!updatedReservation) {
       res.status(404).json({ error: 'Reservation not found', reservationId });
     } else {
-      res.json({ message: 'Reservation cancelled successfully' });
+      res.status(200).json({ message: 'Reservation updated successfully', updatedReservation });
     }
   } catch (error) {
     console.error(error);
@@ -72,6 +76,7 @@ router.delete('/:id', authMiddleware, async (req: Request, res: Response) => {
   }
 });
 
+// Route to get guest stay summary by guestMemberId
 router.get('/guestStaySummary/:guestMemberId', authMiddleware, async (req, res) => {
   const { guestMemberId } = req.params;
 
@@ -84,6 +89,7 @@ router.get('/guestStaySummary/:guestMemberId', authMiddleware, async (req, res) 
   }
 });
 
+// Route to search reservations in a given date range
 router.post('/search', authMiddleware, async (req, res) => {
   const { from, to } = req.body;
 

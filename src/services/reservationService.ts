@@ -1,8 +1,8 @@
-
 import ReservationController from '../controllers/reservationController';
 import { Reservation } from '../models/reservationModel';
 
 class ReservationService {
+  // Retrieve all reservations
   async getAllReservations(): Promise<any> {
     try {
       const reservations = await ReservationController.getAllReservations();
@@ -13,9 +13,11 @@ class ReservationService {
     }
   }
 
+  // Retrieve a reservation by ID
   async getReservationById(reservationId: string): Promise<any> {
     try {
       const reservation = await ReservationController.getReservationById(reservationId);
+
       if (!reservation) {
         return Promise.reject(new Error('Reservation not found'));
       }
@@ -26,6 +28,7 @@ class ReservationService {
     }
   }
 
+  // Create a new reservation
   async createReservation(reservationData: Reservation): Promise<any> {
     try {
       const newReservation = await ReservationController.createReservation(reservationData);
@@ -36,9 +39,10 @@ class ReservationService {
     }
   }
 
-  async cancelReservation(reservationId: string): Promise<any> {
+  // Cancel a reservation by ID
+  async updateReservation(reservationId: string): Promise<any> {
     try {
-      const deletedReservation = await ReservationController.cancelReservation(reservationId);
+      const deletedReservation = await ReservationController.updateReservation(reservationId);
       return deletedReservation;
     } catch (error) {
       console.error('Error in ReservationService.cancelReservation:', error);
@@ -46,6 +50,7 @@ class ReservationService {
     }
   }
 
+  // Get guest stay summary by guestMemberId
   async getGuestStaySummary(guestMemberId: string): Promise<any> {
     try {
       return await ReservationController.getGuestStaySummary(guestMemberId);
@@ -55,7 +60,8 @@ class ReservationService {
     }
   }
 
-  async searchStaysInDateRange(from: string, to: string): Promise<void> {
+  // Search stays in a given date range
+  async searchStaysInDateRange(from: string, to: string): Promise<any> {
     try {
       const staysInDateRange = await ReservationController.searchStaysInDateRange(from, to);
       return staysInDateRange;

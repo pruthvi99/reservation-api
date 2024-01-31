@@ -266,20 +266,6 @@
 },
 {
   "_id": {
-    "$oid": "65b09602c100efb5a144446c"
-  },
-  "reservationId": "0e8796cb-5eca-4113-b4d9-4dd4edd8b2e7",
-  "guestMemberId": "20565d72-4eca-42dd-bfa2-89519d78fc09",
-  "guestName": "April Bogisich",
-  "hotelName": "Farrell - Schinner",
-  "arrivalDate": "2024-04-10T10:57:00.202Z",
-  "departureDate": "2024-02-01T08:40:51.480Z",
-  "status": "cancelled",
-  "baseStayAmount": 369,
-  "taxAmount": 89
-},
-{
-  "_id": {
     "$oid": "65b0965ac100efb5a144446e"
   },
   "reservationId": "18914a2c-c701-46b6-97de-3239fad5d1e3",
@@ -666,6 +652,44 @@
   },
   "departureDate": {
     "$date": "2024-03-15T05:08:31.000Z"
+  },
+  "status": "active",
+  "baseStayAmount": 1225,
+  "taxAmount": 36,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65b9ac46a71f95d9fbe93396"
+  },
+  "reservationId": "5818a626-8d2e-4eba-985b-b73ce83bax07",
+  "guestMemberId": "48c36b70-9df0-4ce7-a361-561e903ed711",
+  "guestName": "pruthvi karri",
+  "hotelName": "Walker - Skiles",
+  "arrivalDate": {
+    "$date": "2024-03-09T11:27:12.000Z"
+  },
+  "departureDate": {
+    "$date": "2024-03-12T05:08:31.000Z"
+  },
+  "status": "active",
+  "baseStayAmount": 1225,
+  "taxAmount": 36,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65b9bac169bce0ced048c727"
+  },
+  "reservationId": "5818a626-8d2e-4eba-985b-b73ce83bax11",
+  "guestMemberId": "48c36b70-9df0-4ce7-a361-561e903ed711",
+  "guestName": "pruthvi karri",
+  "hotelName": "Walker - Skiles",
+  "arrivalDate": {
+    "$date": "2024-03-09T11:27:12.000Z"
+  },
+  "departureDate": {
+    "$date": "2024-03-12T05:08:31.000Z"
   },
   "status": "active",
   "baseStayAmount": 1225,

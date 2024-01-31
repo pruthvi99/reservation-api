@@ -3,6 +3,7 @@ import ReservationModel, { Reservation } from '../models/reservationModel';
 import { Error } from 'mongoose';
 
 class ReservationController {
+  // Retrieve all reservations
   async getAllReservations(): Promise<any> {
     try {
       const reservations = await ReservationModel.find();
@@ -12,6 +13,7 @@ class ReservationController {
     }
   }
 
+  // Retrieve a reservation by ID
   async getReservationById(reservationId: string): Promise<any> {
     try {
       const reservation = await ReservationModel.findOne({ reservationId });
@@ -24,8 +26,14 @@ class ReservationController {
     }
   }
 
+  // Create a new reservation
   async createReservation(reservationData: Reservation): Promise<any> {
     try {
+      const arrival = new Date(reservationData.arrivalDate);
+      const departure = new Date(reservationData.departureDate);
+        if (departure < arrival) {
+          throw new Error(JSON.stringify({ msg: "Departure date cannot be earlier than arrival date." }));
+        }
       const newReservation = await ReservationModel.create(reservationData);
       return newReservation;
     } catch (error) {
@@ -33,19 +41,36 @@ class ReservationController {
     }
   }
 
-  async cancelReservation(reservationId: string): Promise<any> {
+  // Cancel a reservation by ID
+  async updateReservation(reservationId: string): Promise<any> {
     try {
-      const result = await ReservationModel.deleteOne({ reservationId });
-      if (result.deletedCount === 0) {
+      const existingReservation = await ReservationModel.findOne({ reservationId });
+  
+      if (!existingReservation) {
         throw new Error('Reservation not found');
       }
-      return result;
+  
+      if (existingReservation.status === 'active') {
+        const result = await ReservationModel.updateOne(
+          { reservationId },
+          { $set: { status: 'cancelled' } }
+        );
+  
+        if (result.modifiedCount === 0) {
+          throw new Error('Reservation not found or no changes were made');
+        }
+
+        return result;
+      } else {
+        throw new Error('Invalid update operation');
+      }
     } catch (error) {
-      console.error('Error in cancelReservation:', error);
-      throw new Error('Database error');
+      console.error('Error in updateReservation:', error);
+      throw error;
     }
   }
 
+  // Get guest stay summary by guestMemberId
   async getGuestStaySummary(guestMemberId: string): Promise<any> {
     try {
       const upcomingStays = await ReservationModel.find({
@@ -135,6 +160,7 @@ class ReservationController {
     }
   }
 
+  // Search stays in a given date range
   async searchStaysInDateRange(from: string, to: string): Promise<any> {
     const isValidDateFormat = (dateString: string): boolean => {
       const regex = /^\d{4}-\d{2}-\d{2}$/;
