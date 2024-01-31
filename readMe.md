@@ -26,8 +26,8 @@ Hotel Reservation Microservices is a project designed to provide a scalable and 
 4. Create a collection named "reservations" within the "hotel-reservation-db" database.
 
 5. Insert reservation data:
-  - Use the provided reservations data in the file "hotel-reservation-db_reservations.json,"  
-  - Or Create your own data using the file "dummyDataGenerator.js" by running: node dummyDataGenerator.js
+  - Use the provided reservations data in the file "src/hotel-reservation-db_reservations.json,"  
+  - Or Create your own data using the file "src/dummyDataGenerator.js" by running: node dummyDataGenerator.js
 
 6. npm run dev
 
