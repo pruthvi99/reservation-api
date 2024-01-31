@@ -42,8 +42,10 @@ Hotel Reservation Microservices is a project designed to provide a scalable and 
      }
      ```
    - Use the JWT token as the Authorization Bearer {your_token} header for all reservation routes.
+  
+8. There is a "insomnia-exports" folder in the root, It can be imported into Insomnia or Postman for the REST Collection.
 
-8. Finally you are resy to explore other routes.
+9. Finally you are ready to explore other routes.
 
 
 ## Endpoints details:
